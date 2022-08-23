@@ -17,6 +17,9 @@ Hertz assignment
 
 ### Members : 
 
+features: 
+- Add member
+
 Post: http://localhost:8080/members
 payload example :
 {
@@ -30,6 +33,11 @@ Get: http://localhost:8080/members/{memberId}
 example: http://localhost:8080/members/1
 
 ## BookStore:
+
+features: 
+- Add book to the store
+- Member can borrow book
+- Member can return book
 
 GET: http://localhost:8080/books (lists all the book in the store)
 
